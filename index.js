@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 5051;
 
 const { locations } = require('./util/handlers/locations')
 const { addlocation } = require('./util/handlers/addlocation')
